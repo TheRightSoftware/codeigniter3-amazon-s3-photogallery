@@ -9,7 +9,7 @@ class Aws3
 
 	private $s3;
 	private $bucket;
-	private $base_url = 'https://cashback-system-images.s3.eu-west-2.amazonaws.com/';
+	private $base_url = '';
 	function __construct()
 	{
 		try {
